@@ -1,9 +1,4 @@
 # Tik Tok UI Clone
-TikTok, also known as Douyin in China, is a media app for creating and sharing short videos.
-
-## What is the purpose of this repository?
-
-I created this repository to study React Native and try to recreate several famous app designs.
 
 ## Prerequisites
 
