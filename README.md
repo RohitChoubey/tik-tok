@@ -10,17 +10,12 @@ I created this repository to study React Native and try to recreate several famo
 - Git (https://git-scm.com/)
 - Node (https://nodejs.org)
 - Android Studio (https://developer.android.com/studio)
+- Emulator or ADB device
 
-## Development environment
-
-- Binaries
+## Software Requirements(At least)
   - Node: 12.9.1
   - Yarn: 1.21.1
   - npm: 6.13.7
-- npmPackages
-  - react: 16.9.0
-  - react-native: 0.61.5
-
 
 ## How to install?
 
@@ -28,19 +23,21 @@ The first thing we have to do is download the repository for our development env
 
 ```sh
 git clone https://github.com/ReinanHS/tiktok-ui.git
+npm install -g yarn
 ```
 
 Run the following command to download the project's dependencies
 
 ```sh
-npm install
+yarn install
 ```
-
-Now that all the dependencies have been downloaded we will install the application on the emulator with the following command
-
+To run the app in development mode :
 ```sh
-npx react-native run-android
+yarn android
+   or
+yarn ios
 ```
+
 
 ### If your NodeJS version is greater than 12.10
 
@@ -71,11 +68,3 @@ var sharedBlacklist = [
   /.*\/__tests__\/.*/
 ];
 ```
-
-## Contributors
-
-We would like to thank the following contributors for helping to develop this repository
-
-- ReinanHS
-
-Help the project, make a difference List of Collaborators
