@@ -17,7 +17,7 @@
 The first thing we have to do is download the repository for our development environment
 
 ```sh
-git clone https://github.com/ReinanHS/tiktok-ui.git
+git clone https://github.com/RohitChoubey/tik-tok.git
 npm install -g yarn
 ```
 
